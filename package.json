@@ -92,10 +92,10 @@
     "@reduxjs/toolkit": "^1.8.0"
   },
   "loki": {
-    "configurations": {
-      "looks-same": {
-        "ignoreCaret": true
+    "looks-same": {
+      "ignoreCaret": true
     },
+    "configurations": {
       "chrome.laptop": {
         "target": "chrome.docker",
         "width": 1366,
