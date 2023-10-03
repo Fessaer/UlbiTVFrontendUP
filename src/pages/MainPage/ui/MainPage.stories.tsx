@@ -1,4 +1,3 @@
-import React from 'react'
 import { type ComponentMeta, type ComponentStory } from '@storybook/react'
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator'
 import { Theme } from 'app/providers/ThemeProvider'
@@ -10,9 +9,9 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' }
   }
-} as ComponentMeta<typeof MainPage>
+} satisfies ComponentMeta<typeof MainPage>
 
-const Template: ComponentStory<typeof MainPage> = (args) => <MainPage {...args} />
+const Template: ComponentStory<typeof MainPage> = (args) => <MainPage {...args as object} />
 
 export const Normal = Template.bind({})
 Normal.args = {}
