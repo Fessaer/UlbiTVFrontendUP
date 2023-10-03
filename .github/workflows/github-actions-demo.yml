@@ -27,17 +27,12 @@ jobs:
         if: always()
       - name: linting css
         run: npm run lint:scss
-      - name: unit testing
         if: always()
+      - name: unit testing
         run: npm run test:unit
+        if: always()
       - name: build storybook
         run: npm run build-storybook
-        if: always()
-      - name: start storybook
-        run: npm run storybook
-        if: always()
-      - name: loki test
-        run: npm run test:ui
         if: always()
       - name: screenshot testing
         run: npm run test:ui:ci
