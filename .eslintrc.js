@@ -22,6 +22,11 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
+    indent: ["error", 4],
+    // Indent JSX with 4 spaces
+    "react/jsx-indent": ["error", 4],
+    // Indent props with 4 spaces
+    "react/jsx-indent-props": ["error", 4],
     "@typescript-eslint/ban-ts-comment": "off",
     "react/jsx-filename-extension": "off",
     "import/no-unresolved": "off",
