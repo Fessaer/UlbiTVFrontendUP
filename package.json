@@ -93,7 +93,6 @@
   },
   "loki": {
     "configurations": {
-      "diffingEngine": "pixelmatch",
       "chrome.laptop": {
         "target": "chrome.app",
         "width": 1366,
