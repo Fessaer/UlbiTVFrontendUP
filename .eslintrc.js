@@ -31,7 +31,11 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+        "warn",
+        { "argsIgnorePattern": "^_" }
+    ],
     "react/require-default-props": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
