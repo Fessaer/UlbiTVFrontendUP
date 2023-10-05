@@ -8,8 +8,8 @@ import path from 'path';
 export default {
   globals: {
     __IS_DEV__: true,
-    __API__: '',
-    __PROJECT__: 'jest'
+    __API__: "",
+    __PROJECT__: "jest",
   },
   clearMocks: true,
   testEnvironment: "jsdom",
@@ -163,7 +163,7 @@ export default {
   // transform: undefined,
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
-  transformIgnorePatterns: ["node_modules/(?!axios)"],
+    transformIgnorePatterns: ["node_modules/(?!axios)"],
 
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
   // unmockedModulePathPatterns: undefined,
