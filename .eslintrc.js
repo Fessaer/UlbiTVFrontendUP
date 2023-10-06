@@ -51,6 +51,7 @@ module.exports = {
     "no-param-reassign": "off",
     "max-len": ["error", { code: 140 }],
     "no-undef": "off",
+    "react/no-array-index-key": "off"
   },
   globals: {
     __IS_DEV__: true,
